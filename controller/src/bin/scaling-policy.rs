@@ -52,7 +52,7 @@ pub fn main() {
             .takes_value(true))
         .arg(Arg::with_name("verbose")
             .help("Print detailed messages (for debugging)")
-            .short("v")
+            .short('v')
             .long("verbose"))
         .arg(Arg::with_name("threshold")
             .help("The target rate ratio threshold")
