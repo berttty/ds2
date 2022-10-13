@@ -4,8 +4,8 @@ version = "0.1.0"
 authors = ["ioannisl <ioannis.liagouris@inf.ethz.ch>"]
 
 [dependencies]
-config = "*"
-clap = "*"
+config = "0.11.0"
+clap = "3.2.22"
 regex = "*"
 petgraph = "*"
 notify = "4.0.0"
